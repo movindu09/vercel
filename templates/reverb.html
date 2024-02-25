@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Reverb</title>
+</head>
+<body>
+    <h1>Add Reverb</h1>
+
+    <form action="/apply_reverb" method="post" enctype="multipart/form-data">
+        <label for="audioFile">Select Audio File:</label>
+        <input type="file" id="audioFile" name="audioFile" accept=".mp3, .wav, .mkv" required />
+        <br>
+        <button type="submit">Add Reverb</button>
+    </form>
+</body>
+</html>
