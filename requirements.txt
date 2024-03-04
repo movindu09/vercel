@@ -45,7 +45,7 @@ MarkupSafe==2.1.5
 ml-dtypes==0.2.0
 msgpack==1.0.7
 numba==0.59.0
-numpy==1.26.4
+numpy
 oauthlib==3.2.2
 opt-einsum==3.3.0
 packaging==23.2
