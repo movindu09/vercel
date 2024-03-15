@@ -1,4 +1,4 @@
-from flask import Flask,render_template,session,redirect,url_for,flash,request,send_file,jsonify
+from flask import Flask, render_template, session, redirect, url_for, flash, request, send_file, jsonify
 from datetime import timedelta
 from flask_mail import Mail,Message
 from flask_sqlalchemy import SQLAlchemy
